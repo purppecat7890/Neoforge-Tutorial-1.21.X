@@ -16,11 +16,11 @@
 
   "block.tutorialmod.bismuth_lamp": "Bismuth Lamp",
 
-  "block.tutorialmod.bismuth_sword": "Bismuth Sword",
-  "block.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
-  "block.tutorialmod.bismuth_axe": "Bismuth Axe",
-  "block.tutorialmod.bismuth_shovel": "Bismuth Shovel",
-  "block.tutorialmod.bismuth_hoe": "Bismuth Hoe",
+  "item.tutorialmod.bismuth_sword": "Bismuth Sword",
+  "item.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.tutorialmod.bismuth_axe": "Bismuth Axe",
+  "item.tutorialmod.bismuth_shovel": "Bismuth Shovel",
+  "item.tutorialmod.bismuth_hoe": "Bismuth Hoe",
 
   "block.tutorialmod.magic_block": "Magic Block",
 
