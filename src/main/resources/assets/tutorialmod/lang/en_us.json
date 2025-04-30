@@ -1,6 +1,33 @@
 {
   "item.tutorialmod.magicstick": "Magic Stick",
-  "block.tutorialmod.bismuth_block": "Oak Log Top Block",
+  "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.lemon": "Lemon",
+
+  "block.tutorialmod.bismuth_block": "Bismuth Block",
+  "block.tutorialmod.bismuth_slab": "Bismuth Slab",
+  "block.tutorialmod.bismuth_fence": "Bismuth Fence",
+  "block.tutorialmod.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.tutorialmod.bismuth_door": "Bismuth Door",
+  "block.tutorialmod.bismuth_trapdoor": "Bismuth Trapdoor",
+  "block.tutorialmod.bismuth_button": "Bismuth Button",
+  "block.tutorialmod.bismuth_pressure_plate": "Bismuth Pressure Plate",
+  "block.tutorialmod.bismuth_wall": "Bismuth Wall",
+  "block.tutorialmod.bismuth_stairs": "Bismuth Stairs",
+
+  "block.tutorialmod.bismuth_lamp": "Bismuth Lamp",
+
+  "block.tutorialmod.bismuth_sword": "Bismuth Sword",
+  "block.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
+  "block.tutorialmod.bismuth_axe": "Bismuth Axe",
+  "block.tutorialmod.bismuth_shovel": "Bismuth Shovel",
+  "block.tutorialmod.bismuth_hoe": "Bismuth Hoe",
+
+  "block.tutorialmod.magic_block": "Magic Block",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block will literally turn your §5magic§r sticks into diamonds",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.tutorialmod.lemon.tooltip": "When life gives you lemons, Make CO2",
+  "tooltip.tutorialmod.chisel.shift_down": "This item can change Chisel Blocks into Bricks",
 
   "creativetab.tutorialmod.purp_items": "Purp's Items"
 }

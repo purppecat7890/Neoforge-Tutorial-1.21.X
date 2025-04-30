@@ -1,6 +1,7 @@
 package net.purppecat.tutorialmod;
 
 import net.purppecat.tutorialmod.block.ModBlocks;
+import net.purppecat.tutorialmod.component.ModDataComponents;
 import net.purppecat.tutorialmod.init.ModCreativeModeTabs;
 import net.purppecat.tutorialmod.init.ModItems;
 import org.slf4j.Logger;
@@ -48,6 +49,7 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -67,6 +69,9 @@ public class TutorialMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MAGICSTICK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.LEMON);
         }
     }
 
