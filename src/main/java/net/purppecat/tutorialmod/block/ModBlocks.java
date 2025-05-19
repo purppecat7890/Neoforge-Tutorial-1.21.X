@@ -13,6 +13,7 @@ import net.purppecat.tutorialmod.TutorialMod;
 import net.purppecat.tutorialmod.block.Custom.BismuthLampBlock;
 import net.purppecat.tutorialmod.block.Custom.MagicBlock;
 import net.purppecat.tutorialmod.init.ModItems;
+import net.purppecat.tutorialmod.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -26,7 +27,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
-                    .strength(2f)
+                    .strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)
             ));
 
     public static final DeferredBlock<StairBlock> BISMUTH_STAIRS = registerBlock("bismuth_stairs",

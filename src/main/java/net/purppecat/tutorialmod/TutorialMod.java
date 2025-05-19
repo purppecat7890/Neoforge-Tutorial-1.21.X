@@ -1,9 +1,14 @@
 package net.purppecat.tutorialmod;
 
+import net.minecraft.world.effect.MobEffects;
 import net.purppecat.tutorialmod.block.ModBlocks;
 import net.purppecat.tutorialmod.component.ModDataComponents;
+import net.purppecat.tutorialmod.effect.ModEffects;
 import net.purppecat.tutorialmod.init.ModCreativeModeTabs;
 import net.purppecat.tutorialmod.init.ModItems;
+import net.purppecat.tutorialmod.potion.ModPotions;
+import net.purppecat.tutorialmod.sound.ModSounds;
+import net.purppecat.tutorialmod.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -49,6 +54,11 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
+
+
         ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
@@ -87,10 +97,8 @@ public class TutorialMod
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-            // Some client setup code
-
+        public static void onClientSetup(FMLClientSetupEvent event) {
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

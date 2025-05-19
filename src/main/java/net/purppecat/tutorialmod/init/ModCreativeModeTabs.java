@@ -40,6 +40,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_HOE);
                         output.accept(ModItems.BISMUTH_PICKAXE);
                         output.accept(ModItems.BISMUTH_SHOVEL);
+                        output.accept(ModItems.BISMUTH_HAMMER);
+
+                        output.accept(ModItems.BISMUTH_HELMET);
+                        output.accept(ModItems.BISMUTH_CHESTPLATE);
+                        output.accept(ModItems.BISMUTH_LEGGINGS);
+                        output.accept(ModItems.BISMUTH_BOOTS);
+
+                        output.accept(ModItems.BISMUTH_HORSE_ARMOR);
+                        output.accept(ModItems.KAUPEN_BOW);
+
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
+                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

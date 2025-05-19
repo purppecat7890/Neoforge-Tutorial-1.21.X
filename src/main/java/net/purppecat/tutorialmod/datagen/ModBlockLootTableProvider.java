@@ -18,7 +18,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.MAGIC_BLOCK.get());
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
         dropSelf(ModBlocks.BISMUTH_BUTTON.get());
         dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());

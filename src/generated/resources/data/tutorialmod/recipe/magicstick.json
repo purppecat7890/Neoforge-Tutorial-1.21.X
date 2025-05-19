@@ -1,20 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "A": {
-      "item": "minecraft:stick"
-    },
-    "B": {
-      "item": "minecraft:iron_ingot"
+  "ingredients": [
+    {
+      "item": "tutorialmod:bismuth_block"
     }
-  },
-  "pattern": [
-    "B",
-    "A"
   ],
   "result": {
-    "count": 1,
+    "count": 9,
     "id": "tutorialmod:magicstick"
   }
 }

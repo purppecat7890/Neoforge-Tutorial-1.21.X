@@ -8,6 +8,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -16,11 +17,13 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import net.minecraft.world.phys.Vec3;
 import net.neoforged.neoforge.capabilities.ItemCapability;
 import net.neoforged.neoforge.energy.IEnergyStorage;
 import net.purppecat.tutorialmod.TutorialMod;
 import net.purppecat.tutorialmod.block.ModBlocks;
 import net.purppecat.tutorialmod.component.ModDataComponents;
+import net.purppecat.tutorialmod.sound.ModSounds;
 
 import java.awt.*;
 import java.util.List;
@@ -54,7 +57,7 @@ public class ChiselItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, context.getClickedPos(), ModSounds.CHISEL_USED.get(), SoundSource.BLOCKS);
 
                 context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }
@@ -76,4 +79,5 @@ public class ChiselItem extends Item {
         }
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
+
 }

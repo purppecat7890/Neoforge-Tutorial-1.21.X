@@ -17,10 +17,36 @@
   "block.tutorialmod.bismuth_lamp": "Bismuth Lamp",
 
   "item.tutorialmod.bismuth_sword": "Bismuth Sword",
+  "item.tutorialmod.bismuth_hammer": "Bismuth Hammer",
+
+  "item.tutorialmod.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.tutorialmod.kaupen_smithing_template": "Kaupen Smithing Template",
+
+  "effect.tutorialmod.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "painting.tutorialmod.saw_them.title": "Saw Them",
+  "painting.tutorialmod.saw_them.author": "NanoAttack",
+  "painting.tutorialmod.world.title": "World",
+  "painting.tutorialmod.world.author": "NanoAttack",
+
   "item.tutorialmod.bismuth_pickaxe": "Bismuth Pickaxe",
   "item.tutorialmod.bismuth_axe": "Bismuth Axe",
   "item.tutorialmod.bismuth_shovel": "Bismuth Shovel",
   "item.tutorialmod.bismuth_hoe": "Bismuth Hoe",
+
+  "item.tutorialmod.kaupen_bow": "Kaupen bow",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.tutorialmod.bismuth_helmet": "Bismuth Helmet",
+  "item.tutorialmod.bismuth_chestplate": "Bismuth Chestplate",
+  "item.tutorialmod.bismuth_leggings": "Bismuth Leggings",
+  "item.tutorialmod.bismuth_boots": "Bismuth Boots",
 
   "block.tutorialmod.magic_block": "Magic Block",
 
@@ -29,5 +55,8 @@
   "tooltip.tutorialmod.lemon.tooltip": "When life gives you lemons, Make CO2",
   "tooltip.tutorialmod.chisel.shift_down": "This item can change Chisel Blocks into Bricks",
 
-  "creativetab.tutorialmod.purp_items": "Purp's Items"
+  "creativetab.tutorialmod.purp_items": "Purp's Items",
+
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.tutorialmod.bismuth": "Bismuth Material"
 }
